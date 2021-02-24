@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+#container {
+  width: 400px;
+  /* height: 400px; */
+  padding: 20px 15px;
+  margin: 120px auto;
+  box-shadow: 0px 4px 30px #f7f7f7;
+
+  text-align: center;
+  border-radius: 25px;
+  border: 1px solid #f7f7f7;
+}
+
+.tr:hover {
+  background-color: #f7f7f7;
+  transform: scale(1.1, 1.1);
+  box-shadow: 0px 4px 30px #3b0f50ab;
+  border: 1px solid #3b0f50ab;
+}
+img {
+  border-radius: 20px;
+  justify-self: end;
+  width: 350px;
+  /* margin: 0 auto; */
+  margin-bottom: 5px;
+}
+
+.countryarea {
+  margin: 5px 15px;
+  padding: 2px 2px;
+  text-align: start;
+  color: rgb(40, 51, 40);
+  font-size: 18px;
+  font-family: cursive;
+}
+.countryname {
+  margin: 15px;
+  padding: 5px 2px;
+  text-align: start;
+  color: rgb(45, 73, 45);
+  font-size: 18px;
+  line-height: 14px;
+  font-family: cursive;
+}
+#jokes {
+  margin: 0 auto;
+  font-family: cursive;
+  padding: 25px;
+  max-width: 600px;
+  border-radius: 25px;
+  min-height: 200px;
+  justify-content: center;
+  align-items: center;
+  background: rgb(49, 10, 49);
+  text-align: center;
+  color: white;
+}
+
+.delete,
+#edit,
+#save {
+  width: 80px !important;
+}
+
+.delete,
+#edit,
+#save,
+.addnote,
+.convertbtn,
+.lightbtn,
+#jokes #jokebtn {
+  font-size: 18px;
+  margin-top: 35px;
+  padding: 15px;
+  font-family: cursive;
+  width: 163px;
+  background: chocolate;
+  border-radius: 25px;
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  filter: drop-shadow(0px 4px 10px rgba(248, 114, 4, 0.61));
+}
+.delete:hover,
+#edit:hover,
+#save:hover,
+.addnote:hover,
+.convertbtn:hover,
+.lightbtn:hover,
+.jokebtn:hover {
+  font-size: 18px;
+  color: orange !important;
+  background: white !important;
+  filter: drop-shadow(0px 4px 10px rgb(218, 218, 218));
+}
+#joke {
+  font-size: 18px;
+  font-weight: 600;
+}
+.lightbtn {
+  margin: 5px;
+}
+
+
+
+#tempform {
+    width: 400px;
+    /* height: 400px; */
+    padding: 50px 25px;
+    margin: 120px auto;
+    box-shadow: 0px 4px 30px #f7f7f7;
+    background-color: #fff;
+
+    text-align: center;
+    border-radius: 25px;
+    border: 1px solid #f7f7f7;
+  }
+  
+  #tempform:hover {
+    /* background-color: #f7f7f7; */
+    transform: scale(1.1, 1.1);
+    box-shadow: 0px 4px 30px #3b0f50ab;
+    border: 1px solid #3b0f50ab;
+  }
+  
+
+  #tempform form select,
+  #tempform form input {
+      width: 120px;
+      height: 35px;
+      border: none;
+      outline: none;
+      background: #f7f7f7 !important ;
+  }
+
+
+#container #textdiv,
+#container textarea {
+  width: 350px;
+  border-color: #fff !important;
+}
+/* #tempform{
+    margin: 15px auto;
+    padding: 50px ;
+} */
+
+/* 
+#tempform form select:hover,
+#tempform form input:hover {
+   
+    background: #fff !important;
+} */
+
+#tempform,
+#container #textdiv,
+#container textarea:focus {
+  font-family: cursive;
+  font-weight: 600;
+  color: rgb(64, 65, 63);
+  text-indent: 10px;
+  padding: 15px 5px;
+  border: none !important;
+  /* background: #f7f7f7; */
+  outline: none !important;
+}
+.disabled {
+  background: orangered !important;
+}
+.disabled:hover {
+  color: black !important;
+  text-decoration: line-through;
+  background: orangered !important;
+}
+#container #textdiv,
+textarea {
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+#container #textdiv {
+  height: 200px;
+}
+#notelist {
+  display: flex;
+  justify-content: space-around !important;
+  margin: 0 auto !important;
+  width: 100% !important;
+  padding: 5px 25px;
+  flex-wrap: wrap;
+}
+/* #tempform form {
+    width: 600px !important;
+    margin: 0 auto !important;
+    padding: 10px !important;
+} */
+
+#notelist #container {
+  max-width: 360px !important;
+  padding: 20px 15px !important;
+  margin: 14px 10px !important;
+  box-shadow: 0px 4px 30px #f7f7f7;
+  text-align: center;
+  border-radius: 25px;
+
+  border: 1px solid #f7f7f7;
+}
+#notelist #container:hover {
+  transform: scale(0.98, 0.98) !important;
+}
+.dsb {
+  display: block;
+}
+
+.hide {
+  display: none;
+}

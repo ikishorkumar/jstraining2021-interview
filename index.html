@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container" class="tr"></div>
+
+    <div id="jokes" class="tr">
+      <div>
+        <h1 id="joke"></h1>
+      </div>
+      <button id="jokebtn" class="jokebtn">Next</button>
+    </div>
+
+    <div id="container" class="tr">
+      <img id="imgbulb" src="blub on.jpeg" alt="light" />
+
+      <button
+        id="lightbtn"
+        class="lightbtn"
+        onclick=" document.getElementById('imgbulb').src='blub on.jpeg'"
+      >
+        Turn On ligh
+      </button>
+      <button
+        id="lightbtn"
+        class="lightbtn"
+        onclick="document.getElementById('imgbulb').src='light off.jpg'"
+      >
+        Turn off ligh
+      </button>
+    </div>
+
+    <div id="tempform">
+      <form>
+        <input type="number" name="temp" id="temp" />
+        <select name="temprature" id="temprature">
+          <option value="">Select Temprature</option>
+          <option value="celsius">celsius</option>
+          <option value="fahrenheit ">fahrenheit</option>
+        </select>
+      </form>
+      <div id="outputtemp"></div>
+      <button id="convertbtn" class="convertbtn" onclick="">submit</button>
+    </div>
+
+    <div>
+      <button id="addnote" class="addnote">Add Note +</button>
+    </div>
+    <div id="notelist">
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
